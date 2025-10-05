@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Exercices Javascript</title>
+	<meta charset="utf-8">
+	<script src="exercices.js"></script> 
+</head>
+
+<body>
+	<h1>Exercices javascript</h1>
+	<br>
+	<hr>
+	<br>
+	<h2>Fibonacci</h2>
+	<p>Calcul de la suite de Fibonacci de rang "n" :</p>
+	<form name="fibonacci">
+		Rentrer le rang à calculer : <input type="text" name="n" size="5" maxlength="5">
+		<input type="button" value="Calculer Fibonacci" onclick="Appeler_Fibonacci()">
+	</form>
+	<br>
+	<div id="resultat_fibonacci">
+		Résultat du calcul de la suite de Fibonacci en attente...
+	</div>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<h2>Range(stop, [start], [step])</h2>
+	<p>Fonction range(stop, [start], [step]) qui prend trois arguments en paramètre et renvoie le tableau des entiers compris entre start (inclus) et stop (exclu) avec un pas de step.</p>
+	<form name="range">
+		Stop : <input type="text" name="stop" size="5" maxlength="5">
+		[Start] : <input type="text" name="start" size="5" maxlength="5">
+		[Step] : <input type="text" name="step" size="5" maxlength="5">
+		<input type="button" value="Range(stop, [start], [step])" onclick="Appeler_Range()">
+	</form>
+	<br>
+	<div id="resultat_range">
+		Résultat de l'appel de la fonction Range en attente...
+	</div>
+			
+</body>
+</html>

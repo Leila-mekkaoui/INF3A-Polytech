@@ -1,0 +1,130 @@
+/*******************************************************************************
+ *
+ * Nom : tphtml.css
+ * Date et auteur : (modif) MEKKAOUI LEILA
+ *		Créé le 27/02/2019
+ *
+ * Description :
+ *		Fichier CSS du TP initiation au langage développement Web
+ *
+ *******************************************************************************/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #e0e0e0;
+    background:
+            url(images/bg_body.jpg) top left no-repeat,
+            #2d2d2d;
+    background-blend-mode: darken;
+}
+
+
+header{
+    margin: 5px;
+    padding: 20px;
+    background-color: #153a33;
+    color: e0e0e0;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Contenue pour les liens hypertext*/
+article a{
+    color: #80958b;
+}
+
+article a:hover{
+    color: #688777;
+}
+
+article a:visited{
+    color: #507161;
+}
+
+
+/* Conteneur pour flexbox */
+div.contenu {
+    display: flex;
+}
+
+/*Contenue pour le menu*/
+nav{
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 5px;
+}
+
+nav a {
+    color: #e0e0e0;
+    background-color: #507161;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #486057;
+    color: #e0e0e0;
+}
+
+nav a.clic{
+    background-color: #3e4e44;
+    color: #e0e0e0;
+}
+
+article{
+    flex: 75%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+}
+
+footer{
+    margin: 5px;
+    padding: 20px;
+    background-color: #474747;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    div.contenu {
+        flex-direction: column;
+    }
+    nav, article{
+        flex: 100%;
+    }
+}
+
+#iframe_css {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #eaeaea;
+}
+
+p{text-align: justify;}
+
+h1{font-size: 26px;}
+
+.polytech {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    flex: 1 1 auto;
+}
+

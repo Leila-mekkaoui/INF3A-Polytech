@@ -1,0 +1,133 @@
+/* 
+    style.css
+    12/09/2025
+    Mekkaoui leila
+    fichier css du tp web 2
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #414549;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+footer {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+section {
+    margin: 10px;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    border: 2px grey dashed;
+}
+
+p {
+    margin : 10px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+h2 {
+    padding: 10px;
+    background-color: red;
+    border-left: 50px solid black;
+    text-transform: capitalize;
+}
+
+#info {
+    width: 600px;
+    color: white;
+    background-color: rgb(53, 17, 17);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 10px;
+    margin: auto;
+}
+
+.documentation {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(4, 73, 4);
+    color: rgb(173, 255, 47);
+    padding: 5px;
+    
+}
+
+a:hover {
+    background-color: rgb(97, 209, 97);
+    color: green;
+}
+
+.code {
+    font-family: "Courier New";
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+pre {
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    
+}
+
+th {
+    background-color: royalblue;
+    color:white;
+    height: 3em;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #86b4df;
+}
+
+tr:last-child td {
+    color: blue;
+}

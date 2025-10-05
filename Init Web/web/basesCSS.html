@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>CSS</title>
+	<meta charset="UTF-8">
+    <link id="main-css" rel="stylesheet" href="tphtml.css">
+</head>
+
+<body>
+
+<header>
+    Initiation au CSS
+    <button id="darkmode-btn" >🌑</button>
+</header>
+
+<section>
+	<div>
+		<h1>Exercices sur les bases de CSS</h1>
+		
+		<p class="documentation">Exercices inspirés du site <a href="https://www.codingame.com/playgrounds/36092/exercices-css/introduction" target="_blank">codingame.com</a></p>
+		
+		<div id="info">
+			CSS est un langage qui décrit le style d'un document HTML.<br>		
+			CSS décrit comment les éléments HTML doivent être affichés.<br>
+			Ces exercices vont vous apprendre les bases de CSS.<br>
+		</div>
+	</div>
+
+	<article>
+		<h2>Introduction</h2>
+		<p>Le CSS est un langage venant en complément du HTML.</p>
+		<ul>
+			<li>CSS signifie <i>Cascading Style Sheet</i>.</li>
+			<li>Il permet de mettre en forme la page web.</li>
+			<li>On peut écrire le code CSS à plusieurs endroits différents, le plus conseillé étant de créer un fichier séparé portant l'extension <span class="code">.css</span></li>
+			<li>Le CSS utilise des sélecteurs pour appliquer la mise en forme aux éléments HTML ciblés.</li>
+			<li>Il existe de nombreux sélecteur CSS :
+				<ul>
+					<li>Les sélecteurs de balise.</li>
+					<li>Les sélecteurs de classe <span class="code">.</span>.</li>
+					<li>Les sélecteurs d'identifiant <span class="code">#</span>.</li>
+					<li>Des combinaisons des trois précédents.</li>
+				</ul>
+			</li>
+		    <li>Attention à la compatibilité inter-navigateurs. Une commande inconnue est ignorée.</li>
+		</ul>
+	</article>
+
+	<article>
+		<h2>Les sélecteurs</h2>
+		<p class="documentation">Lien vers <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">w3schools sur les sélecteurs</a></p>
+		<p>Une définition CSS se présente comme suit :</p>
+<pre class="code">
+sélecteur {
+	propriété1:valeur1;
+	propriété2:valeur2;
+	propriété3:valeur3;
+}
+</pre>
+	</article>
+	
+	<article>
+		<h2>Les tableaux</h2>
+		<p class="documentation">Lien vers <a href="https://www.w3schools.com/css/css_table.asp" target="_blank">w3schools sur les tableaux</a></p>
+
+		<p>Pour le tableau ci-dessous, il faut :</p>
+		<ul>
+			<li>fixer la largeur du tableau à 60%</li>
+			<li>centrer le tableau horizontalement</li>
+			<li>mettre une bordure et une marge interne sur chaque case du tableau.</li>
+			<li>sur la ligne d'en-tête : colorier le fond en bleu foncé et le texte en blanc, fixer la hauteur à 3em</li>
+			<li>fixer la hauteur des lignes à 2em</li>
+			<li>colorier le fond des lignes paires du tableau en bleu clair</li>
+			<li>colorier le texte de la dernière ligne du tableau en bleu</li>
+		</ul>
+
+		<table>
+			<tr>
+				<th>Ligne 1 - Colonne 1</th>
+				<th>Ligne 1 - Colonne 2</th>
+				<th>Ligne 1 - Colonne 3</th>
+			</tr>
+			<tr>
+				<td>Ligne 2 - Colonne 1</td>
+				<td>Ligne 2 - Colonne 2</td>
+				<td>Ligne 2 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 3 - Colonne 1</td>
+				<td>Ligne 3 - Colonne 2</td>
+				<td>Ligne 3 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 4 - Colonne 1</td>
+				<td>Ligne 4 - Colonne 2</td>
+				<td>Ligne 4 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 5 - Colonne 1</td>
+				<td>Ligne 5 - Colonne 2</td>
+				<td>Ligne 5 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 6 - Colonne 1</td>
+				<td>Ligne 6 - Colonne 2</td>
+				<td>Ligne 6 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 7 - Colonne 1</td>
+				<td>Ligne 7 - Colonne 2</td>
+				<td>Ligne 7 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 8 - Colonne 1</td>
+				<td>Ligne 8 - Colonne 2</td>
+				<td>Ligne 8 - Colonne 3</td>
+			</tr>
+			<tr>
+				<td>Ligne 9 - Colonne 1</td>
+				<td>Ligne 9 - Colonne 2</td>
+				<td>Ligne 9 - Colonne 3</td>
+			</tr>
+		</table>
+	</article>
+
+	
+	
+</section>
+
+<footer>
+	<p>Polytech Lyon 3A Info - Initiation aux langages du Web</p>
+</footer>
+<script src="javascript/darkmode.js"></script>
+</body>
+</html>

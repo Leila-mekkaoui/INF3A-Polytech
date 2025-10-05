@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Initiation au développement Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="main-css" rel="stylesheet" href="tphtml.css">
+</head>
+
+<body>
+	<header>
+		Initiation au développement Web
+        <button id="darkmode-btn" >🌑</button>
+	</header>
+
+	<div class="contenu">
+        <nav>
+            <a href="accueil.html" class="clic">Accueil</a>
+            <a href="bases.html">Les bases du langage HTML</a>
+            <a href="tableau.html">Les tableaux</a>
+            <a href="styles_exercices.html">Les styles CSS : exercices</a>
+            <a href="styles_illustration.html">Les styles CSS : illustration</a>
+            <a href="js_exercices.html">Javascript : exercices</a>
+            <a href="js_ampoule.html">Javascript : l'ampoule</a>
+            <a href="js_planets.html">Javascript : planètes</a>
+        </nav>
+			
+		<article>
+			<h1>Les bases du langage HTML</h1>
+            <a href="#introduction">Introduction</a> <br>
+            <a href="#Les_balises_titre">Les balises titre</a> <br>
+            <a href="#Les_paragraphes">Les paragraphes</a> <br>
+            <a href="#Les_listes">Les listes</a> <br>
+            <a href="#formatage_du_texte">formatage du texte</a> <br>
+            <a href="#Les_styles">Les styles</a>
+
+            <h2 id="introduction">Introduction</h2>
+            <p>
+                HTML est un langage pour décrire des pages Web :
+                <ul>
+                    <li>HTML signifie Hyper Text Markup Language</li>
+                    <li>HTML n'est pas un langage de programmation, il est un langage de balisage</li>
+                    <li>Un langage de balisage est un ensemble de balises</li>
+                    <li>Le langage HTML utilise des balises pour décrire des pages Web</li>
+                </ul>
+
+                Le but d'un navigateur web (comme Edge ou Firefox) est de lire les documents HTML et de les afficher sous forme de pages Web. Le navigateur n'affiche pas les balises HTML, mais utilise les balises pour interpréter le contenu de la page.
+            </p>
+            <p>
+                Exemple :
+                <ul>
+                    <li>Le texte entre <code>&lt;html&gt;</code> et <code>&lt;/html&gt;</code> décrit la page web</li>
+                    <li>Le texte entre <code>&lt;body&gt;</code> et <code>&lt;/body&gt;</code> est le contenu de la page visible</li>
+                    <li>Le texte entre <code>&lt;h1&gt;</code> et <code>&lt;/h1&gt;</code> est affiché comme un titre de niveau 1</li>
+                    <li>Le texte entre <code>&lt;p&gt;</code> et <code>&lt;/p&gt;</code> est affiché comme un paragraphe</li>
+                </ul>
+            </p>
+                <a href="#">Retour</a>
+            <hr>
+
+            <h2 id="Les_balises_titre">Les balises titre</h2>
+
+            <p>
+                Les titres sont définis avec les balises <code>&lt;h1&gt;</code> à <code>&lt;h6&gt;</code>.
+            </p>
+            <p>
+                Utilisez les balises titres HTML pour les titres seulement. Ne pas utiliser les balises titres pour rendre le texte GROS ou gras.
+                Les moteurs de recherche utilisent vos balises titres pour indexer la structure et le contenu de vos pages web. Il est important de les utiliser pour structurer le document.
+                Les balises H1 devraient être utilisées comme rubriques principales, suivies de balises H2, puis les balises H3 moins importantes, et ainsi de suite.
+            </p>
+
+            <a href="#">Retour</a>
+            <hr>
+
+            <h2 id="Les_paragraphes">Les paragraphes</h2>
+            <p>
+                Les paragraphes sont définies avec la balise <code>&lt;p&gt;</code>. <br>
+                La balise <code>&lt;br&gt;</code> insère un saut de ligne. <br>
+                La balise <code>&lt;hr&gt;</code> insére une ligne horizontale.
+            </p>
+
+            <a href="#">Retour</a>
+
+            <h2 id="Les_listes">Les listes</h2>
+            <p>
+                Voici une liste numérotée :
+            </p>
+            <ol>
+                <li>OL</li>
+                <li>LOSC</li>
+                <li>OM</li>
+                <li>PSG</li>
+                <li>ASSE</li>
+            </ol>
+            <p>
+                Voici une liste non numérotée :
+            </p>
+            <ul>
+                <li>ASSE</li>
+                <li>PSG</li>
+                <li>OM</li>
+                <li>OL</li>
+                <li>LOSC</li>
+            </ul>
+            </p>
+
+            <a href="#">Retour</a>
+            <hr>
+
+            <h2 id="formatage_du_texte">Formatage du texte</h2>
+            <p>
+                Quelles balises permettent de mettre le texte comme indiqué ?<br>
+                <b>Ce texte est gras.</b><br>
+                <i>Ce texte est italique.</i><br>
+                <u>Ce texte est souligné.</u><br>
+                <s>Ce texte est barré.</s><br>
+                <small>Ce texte est petit.</small>
+            </p>
+
+            <p>
+                La balise <code>&lt;pre&gt;</code> définit du texte préformaté.<br>
+                Le texte dans un élément <code>pre</code> est affiché dans une police à largeur fixe (habituellement Courier), et il préserve à la fois les espaces et les sauts de ligne. Il est conseillé d'utiliser l'élément <code>pre</code> pour afficher des lignes de code informatique.<br>
+            </p>
+            <p>
+                Exemple :
+                <pre>
+                    for(int i=0;i&lt;20;i++)
+                    {
+                        cout &lt;&lt; i &lt;&lt; " ";
+                    }
+                </pre>
+            </p>
+
+            <p>
+                Balise abréviation <code>&lt;abbr&gt;</code> :
+            </p>
+            <p>
+                <b>Je suis étudiant à <abbr title="Polytech">Polytech Lyon</abbr></b>
+            </p>
+
+            <a href="#">Retour</a>
+            <hr>
+
+            <h2 id="Les_styles">Les styles</h2>
+            <p>
+                
+                CSS a été introduit avec le HTML 4, dans le but de fournir une voie commune pour le style des éléments HTML.<br>
+                Les styles CSS peuvent être ajoutés à HTML de la manière suivante :
+                <ul>
+                    <li>dans des fichiers séparés CSS (<b>la meilleure !</b>)</li>
+                    <li>dans la section head HTML à l'intérieur de la balise <code>&lt;style&gt;</code></li>
+                    <li>dans l'attribut "style" des éléments HTML simples</li>
+                </ul>
+            </p>
+
+            <a href="#">Retour</a>
+
+        </article>
+</div>
+
+<footer>
+    Copyright 2024-2025   Polytech Lyon 3A Info
+</footer>
+    <script src="javascript/darkmode.js"></script>
+</body>
+</html>
